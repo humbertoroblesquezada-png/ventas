@@ -1,6 +1,6 @@
 # 🔄 Flujo de Trabajo Diario del Asesor Comercial
 
-El éxito en ventas radica en la consistencia de la ejecución. Este manual establece el protocolo operativo paso a paso que todo vendedor de **Creamos Tu Empresa Digital** y **Gravity Studio** debe seguir desde que se le asigna un prospecto hasta el cierre y cobro de su comisión.
+El éxito en ventas radica en la consistencia de la ejecución. Este manual establece el protocolo operativo paso a paso que todo vendedor de **Creamos Tu Empresa Digital** y **Gravity Studio** debe seguir desde que se le asigna un prospecto hasta el cierre y entrega de la solución.
 
 ---
 
@@ -29,9 +29,9 @@ El éxito en ventas radica en la consistencia de la ejecución. Este manual esta
 ### Paso 3: Llamada y Selección de Solución (Perfilamiento ──► `propuesta_enviada`)
 1. **Llamada de 15 Minutos**: Escucha activamente los dolores del cliente. No intentes vender la página de inmediato, enfócate en auditar lo que hoy frena su conversión.
 2. **Definición de Paquete**:
-   * Si requiere validar una oferta rápido sin integraciones: **Paquete 1 ($3,500 MXN)**.
-   * Si requiere autoridad y estatus corporativo multipágina: **Paquete 2 ($5,000 MXN)**.
-   * Si requiere automatización, seguimiento por email y WhatsApp recurrente: **Paquete 3 ($13,900 MXN + Renta)**.
+   * Si requiere validar una oferta rápido sin integraciones: **Paquete 1 ($3,499 MXN)**.
+   * Si requiere autoridad y estatus corporativo multipágina: **Paquete 2 ($5,899 MXN)**.
+   * Si requiere automatización y seguimiento por email y WhatsApp: **Paquete 3 ($13,499 MXN)**.
    * Si requiere sistemas a la medida con integraciones complejas: **Vende la Auditoría de Automatización ($5,000 MXN) de forma obligatoria**.
 3. **Envío de Propuesta**: Envía la propuesta formal en PDF y cambia el estado en el CRM a `propuesta_enviada`.
 
@@ -41,7 +41,7 @@ El éxito en ventas radica en la consistencia de la ejecución. Este manual esta
 1. **Seguimiento Estructurado**: Realiza el seguimiento sin hostigar cada 48 horas (máximo 3 contactos).
 2. **Recepción del Anticipo**: Solicita el 50% de anticipo (o 100% por adelantado en P1 y P2).
 3. **Carga en el CRM**: Carga el comprobante en el portal de ventas. Una vez verificado por administración, el estado pasa a `anticipo_pagado`.
-4. **Registro de la Comisión**: Tu comisión queda registrada en estado de **"Comisión Estimada"** en Supabase.
+4. **Registro Comercial**: Tu venta queda registrada en estado de **"Pendiente de Entrega"** en Supabase para el seguimiento administrativo.
 5. **Creación del Expediente**: La Ficha del Cliente se transfiere a la Fila de Desarrollo de la fábrica de software.
 
 ---
@@ -49,8 +49,8 @@ El éxito en ventas radica en la consistencia de la ejecución. Este manual esta
 ### Paso 5: Entrega y Liquidación (`anticipo_pagado` ──► `entregado`)
 1. **Acompañamiento en Sprint**: Mantente disponible para recopilar logotipos o imágenes del cliente si la fábrica lo requiere.
 2. **Validación de Calidad**: Una vez que **Antigravity** realiza el QA responsivo de 360px-430px y de optimización técnica del sitio, se le presenta la demo al cliente.
-3. **Cobro de Liquidación**: El cliente realiza el pago del 50% restante.
-4. **Despliegue y Apuntado**: La fábrica apunta el dominio del cliente, el estado pasa a `entregado` y la comisión pasa a ser **"Comisión Ganada"** (autorizada para pago en el siguiente corte).
+3. **Cobro de Liquidación**: El cliente realiza el pago del 50% restante o el monto acordado.
+4. **Despliegue y Apuntado**: La fábrica apunta el dominio del cliente, y el estado de la venta pasa a **"Entregado"** en Supabase de forma definitiva.
 
 ---
 

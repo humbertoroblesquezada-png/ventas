@@ -1,6 +1,6 @@
 # 💼 Portal Comercial y Ventas — Creamos Tu Empresa Digital / Gravity Studio
 
-¡Bienvenido al repositorio central de operación comercial! Este es el sistema operativo comercial, diseñado para albergar guiones de venta, tabuladores de comisiones, políticas para asesores, KPIs y herramientas de seguimiento de prospectos.
+¡Bienvenido al repositorio central de operación comercial! Este es el sistema operativo comercial, diseñado para albergar guiones de venta, políticas de precios, guías para asesores, KPIs y herramientas de seguimiento de prospectos.
 
 ---
 
@@ -8,7 +8,7 @@
 
 Este espacio tiene como fin **estructurar, automatizar y auditar** todo el proceso comercial de **Creamos Tu Empresa Digital** y **Gravity Studio**. 
 Sirve como el cerebro de ventas unificado para:
-1. **Vendedores y Asesores**: Acceder a guiones listos para usar, tabuladores de precios, flujos de trabajo claros y políticas de comisiones.
+1. **Vendedores y Asesores**: Acceder a guiones listos para usar, tabuladores de precios y flujos de trabajo claros.
 2. **Coordinadores y Gerencia (Adolfo)**: Auditar el desempeño del pipeline en tiempo real y validar la viabilidad comercial.
 3. **Modelos de IA (ChatGPT y Antigravity)**: Leer el estado operativo, interpretar las políticas comerciales autorizadas y apoyar en la optimización de los flujos de leads.
 
@@ -22,7 +22,6 @@ El repositorio está organizado de forma jerárquica para permitir una fácil na
 ventas/
 ├── README.md                           # Esta guía maestra de navegación y políticas
 ├── 00_indice_operativo/                # Mapa general de archivos del repositorio
-│   └── indice_ventas.md
 ├── 01_oferta_comercial/                # Portafolio oficial, precios e infraestructura BlueJax
 │   ├── oferta_principal.md
 │   ├── paquetes_y_precios.md
@@ -34,10 +33,10 @@ ventas/
 │   └── seguimiento_post_contacto.md
 ├── 03_objeciones/                      # Respuestas autorizadas ante fricciones del prospecto
 │   └── objeciones_y_respuestas.md
-├── 04_vendedores/                      # Flujos, comisiones, KPIs y reglamento comercial
+├── 04_vendedores/                      # Flujos, precios, metas, KPIs y reglamento comercial
 │   ├── flujo_del_vendedor.md
 │   ├── reglas_para_vendedores.md
-│   ├── politica_de_comisiones.md
+│   ├── politica_de_comisiones.md       # Precios y metas de venta
 │   └── kpis_por_vendedor.md
 ├── 05_prospectos/                      # Estructura del lead y expedientes del CRM
 │   ├── estructura_lead.md
@@ -72,7 +71,7 @@ Para mantener la integridad corporativa y de conformidad con el diseño de segur
 > [!CAUTION]
 > **LÍNEA ROJA DE SEGURIDAD COMERCIAL**
 > * **Cero Información Sensible**: Queda estrictamente prohibido guardar contraseñas, llaves de API, tokens `service_role` o accesos bancarios en este repositorio.
-> * **Aislamiento Financiero Central**: Este espacio trata exclusivamente sobre precios de venta al público y comisiones brutas de asesores. Bajo ninguna circunstancia se importarán registros de costos de infraestructura internos de BlueJax ni flujos de margen neto de la agencia.
+> * **Aislamiento Financiero Central**: Este espacio trata exclusivamente sobre precios de venta al público oficiales. Bajo ninguna circunstancia se importarán registros de costos de infraestructura internos de BlueJax ni flujos de margen neto de la agencia.
 > * **Sin Datos Sensibles de Clientes Reales**: No almacenes números de tarjetas, identificaciones oficiales o bases de datos crudas de clientes en estas notas. El CRM en Supabase es el único repositorio seguro para ello.
 
 ---
@@ -81,7 +80,7 @@ Para mantener la integridad corporativa y de conformidad con el diseño de segur
 
 Este repositorio (`ventas`) funciona de manera coordinada pero desacoplada con el core operativo de la agencia (`gravity-studio-system`).
 * **gravity-studio-system**: Contiene los manuales técnicos, infraestructura de fábrica de software, checklist de control de calidad responsivo y de código, y flujos de dirección ejecutiva a cargo de Humberto Robles Quezada.
-* **ventas**: Es un espacio ágil, dedicado al 100% a la aceleración, comisiones, guiones e inventario de leads en fase comercial. Los asesores comerciales interactúan principalmente con este repositorio para agilizar sus cierres.
+* **ventas**: Es un espacio ágil, dedicado al 100% a la aceleración de ventas, guiones e inventario de leads en fase comercial. Los asesores comerciales interactúan principalmente con este repositorio para agilizar sus cierres.
 
 ---
 
