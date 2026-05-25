@@ -13,13 +13,13 @@ Esta es la política comercial definitiva que rige el esquema de compensaciones,
 
 Las comisiones y precios autorizados para los cuatro niveles de solución estándar de la Fábrica de Sitios y la infraestructura **BlueJax** se definen de la siguiente manera:
 
-| Nivel de Solución | Costo de Venta (MXN) | % Comisión Asesor | Comisión Neta (MXN) | Esquema de Cobro al Cliente |
-| :--- | :---: | :---: | :---: | :--- |
-| **Paquete 1: Validación y Venta Rápida** | **$3,500.00** | **15%** | **$525.00 MXN** | 100% por adelantado |
-| **Paquete 2: Autoridad Comercial** | **$5,000.00** | **15%** | **$750.00 MXN** | 100% por adelantado |
-| **Paquete 3: Dominio con BlueJax** | **Desde $13,900.00** | **20%** | **$2,780.00 MXN** (base) | 60% anticipado / 40% entrega |
-| **Paquete 4: Ecosistema Automatizado** | **Bajo Cotización** | **20%** | Variable según proyecto | Hitos de desarrollo (30/40/30) |
-| **Auditoría Paquete 4 (Obligatoria)** | **$5,000.00** | **15%** | **$750.00 MXN** | 100% por adelantado |
+| Nivel de Solución | Costo de Venta (MXN) | Comisión Neta Oficial (MXN) | Esquema de Cobro al Cliente |
+| :--- | :---: | :---: | :--- |
+| **Paquete 1: Validación y Venta Rápida** | **$3,500.00** | **$1,089.00 MXN** | 100% por adelantado |
+| **Paquete 2: Autoridad Comercial** | **$5,000.00** | **$1,899.00 MXN** | 100% por adelantado |
+| **Paquete 3: Dominio con BlueJax** | **Desde $13,900.00** | **$2,449.00 MXN** (base) | 60% anticipado / 40% entrega |
+| **Paquete 4: Ecosistema Automatizado** | **Bajo Cotización** | Variable según proyecto (20%) | Hitos de desarrollo (30/40/30) |
+| **Auditoría Paquete 4 (Obligatoria)** | **$5,000.00** | **$750.00 MXN** | 100% por adelantado |
 
 ---
 
@@ -80,9 +80,6 @@ Las incidencias se dividen según el nivel de gravedad de la infracción:
 
 ## ⚡ 5. Metas y Estructura de Bonos Mensuales
 
-Estructura de bonos acumulativos sugerida para incentivar el volumen de cierres mensuales de cada vendedor:
-*   **Meta 5 cierres mensuales:** Bono de **+$1,000.00 MXN** adicionales.
-*   **Meta 10 cierres mensuales:** Bono de **+$2,500.00 MXN** adicionales.
-*   **Meta Élite (3 cierres de Paquete 3 en el mes):** Bono de **+$3,000.00 MXN** adicionales.
+Se otorgan bonos e incentivos adicionales por buen desempeño comercial para premiar la consistencia y el volumen de cierres mensuales de cada asesor. Las metas específicas y montos definitivos de estos bonos serán definidos y comunicados por la Dirección General posteriormente.
 
 *(Cortes de comisiones los días 15 y 30 de cada mes; liquidaciones en las siguientes 48 horas hábiles).*
