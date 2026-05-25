@@ -7,9 +7,9 @@ Para maximizar la conversión y garantizar la viabilidad técnica en las entrega
 ## 🗺️ 1. Resumen de la Estructura de Paquetes
 
 ```
-[Paquete 1: Validación] ──► Sin BlueJax ($3,499 MXN / 100% Adelantado)
-[Paquete 2: Autoridad]  ──► Sin BlueJax ($5,899 MXN / 100% Adelantado)
-[Paquete 3: Dominio]    ──► Con BlueJax ($13,499 MXN)
+[Paquete 1: Validación] ──► Sin BlueJax ($3,500 MXN / 100% Adelantado)
+[Paquete 2: Autoridad]  ──► Sin BlueJax ($5,000 MXN / 100% Adelantado)
+[Paquete 3: Dominio]    ──► Con BlueJax ($13,900 MXN + Renta $6,000)
 [Paquete 4: Automatizado] ─► Con BlueJax (Cotización previa Auditoría de $5,000)
 ```
 
@@ -20,7 +20,7 @@ Para maximizar la conversión y garantizar la viabilidad técnica en las entrega
 ### ⚡ Paquete 1: Validación y Venta Rápida
 *   **Enfoque:** Landing page express de una sola sección, ultra optimizada para conversión directa y campañas de pauta publicitaria en Meta/Google Ads.
 *   **Integración BlueJax:** **NO INCLUYE**.
-*   **Precio Oficial Sugerido:** **$3,499.00 MXN**.
+*   **Precio Oficial Sugerido:** **$3,500.00 MXN**.
 *   **Esquema de Cobro:** **100% por adelantado** (fricción de cobranza reducida al mínimo).
 *   **Entregables Técnicos Estándar:**
     *   Diseño responsivo de una sola sección Hero + formulario AJAX rápido.
@@ -31,7 +31,7 @@ Para maximizar la conversión y garantizar la viabilidad técnica en las entrega
 ### 🏢 Paquete 2: Autoridad Comercial
 *   **Enfoque:** Sitio web corporativo multipágina estándar, diseñado para establecer el estatus digital, credibilidad y seriedad de marcas locales consolidadas.
 *   **Integración BlueJax:** **NO INCLUYE**.
-*   **Precio Oficial Sugerido:** **$5,899.00 MXN**.
+*   **Precio Oficial Sugerido:** **$5,000.00 MXN**.
 *   **Esquema de Cobro:** **100% por adelantado**.
 *   **Entregables Técnicos Estándar:**
     *   Estructura multipágina semántica (Inicio, Nosotros, Servicios, Contacto).
@@ -41,10 +41,13 @@ Para maximizar la conversión y garantizar la viabilidad técnica en las entrega
 
 ### 👑 Paquete 3: Dominio de Categoría con BlueJax
 *   **Enfoque:** Ecosistema digital premium de alta gama. Combina diseño estético superior con la potencia de automatización de la infraestructura **BlueJax** para captar, filtrar y nutrir leads de alto ticket de forma autónoma.
-*   **Integración BlueJax:** **INCLUYE IMPLEMENTACIÓN**.
-*   **Precio Base Oficial:** **Desde $13,499.00 MXN** (según el alcance visual y de secciones).
-*   **Costos de Implementación BlueJax:**
-    *   *Costo de Configuración Inicial:* **$8,000.00 MXN** (Este es un **valor de referencia de configuración técnica que ya se encuentra incluido/absorbido dentro del precio base de $13,499.00 MXN**; no constituye un cargo adicional para el cliente).
+*   **Integración BlueJax:** **INCLUYE IMPLEMENTACIÓN Y LICENCIA**.
+*   **Precio Base Oficial:** **Desde $13,900.00 MXN** (según el alcance visual y de secciones).
+*   **Costos de Implementación y Renta BlueJax:**
+    *   *Costo de Configuración Inicial:* **$8,000.00 MXN** (Este es un **valor de referencia de configuración técnica que ya se encuentra incluido/absorbido dentro del precio base de $13,900.00 MXN**; no constituye un cargo adicional para el cliente).
+    *   *Mensualidad Gestionada por Gravity Studio:* **$6,000.00 MXN mensuales** cobrados al cliente.
+    *   *Costo Base de Licenciamiento (Gasto Operativo):* **$4,000.00 MXN mensuales** (infraestructura).
+    *   *Margen Recurrente Mensual para Gravity Studio:* **$2,000.00 MXN mensuales** de ingreso recurrente.
 *   **Esquema de Cobro:** Esquema sugerido de 60% de anticipo y 40% a la entrega, o 100% por adelantado con un beneficio del 5% de descuento.
 *   **Entregables Técnicos Estándar:**
     *   Copywriting persuasivo Challenger de alta fidelidad.
@@ -62,5 +65,8 @@ Para maximizar la conversión y garantizar la viabilidad técnica en las entrega
 ---
 
 ## 🚨 3. Diferencia Crítica entre Paquete 3 y Paquete 4 (Línea Roja Comercial)
-*   **Paquete 3 (Dominio de Categoría):** Es un ecosistema web premium estandarizado donde la infraestructura de **BlueJax** se conecta a integraciones predefinidas (ej. Calendly, Netlify Forms y redirección directa de WhatsApp con brief estructurado). Las automatizaciones de correos o respuestas siguen plantillas estables de nicho.
-*   **Paquete 4 (Ecosistema Automatizado):** Involucra reingeniería de procesos internos del cliente. Requiere programar integraciones a la medida con CRMs propietarios, desarrollo de APIs personalizadas, configuración de Webhooks multi-nodo en N8N, e inteligencia artificial conversacional. **Ningún vendedor puede cotizar este paquete sin el reporte oficial resultante de la auditoría de $5,000 MXN.**
+
+Es vital que la fuerza de ventas comprenda la línea divisoria para evitar comprometer entregables no autorizados (SLAs falsos):
+
+1.  **Paquete 3 (Dominio de Categoría):** Es un ecosistema web premium estandarizado donde la infraestructura de **BlueJax** se conecta a integraciones predefinidas (ej. Calendly, Netlify Forms y redirección directa de WhatsApp con brief estructurado). Las automatizaciones de correos o respuestas siguen plantillas estables de nicho.
+2.  **Paquete 4 (Ecosistema Automatizado):** Involucra reingeniería de procesos internos del cliente. Requiere programar integraciones a la medida con CRMs propietarios, desarrollo de APIs personalizadas, configuración de Webhooks multi-nodo en N8N, e inteligencia artificial conversacional. **Ningún vendedor puede cotizar este paquete sin el reporte oficial resultante de la auditoría de $5,000 MXN.**
