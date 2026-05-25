@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <title>Portafolio de Soluciones y Metas Comerciales — CTE Digitals</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;600&display=swap");
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Open Sans", sans-serif;
+            color: #1E293B;
+            line-height: 1.5;
+            margin: 0;
+            padding: 0;
+            background-color: #F8FAFC;
+            -webkit-print-color-adjust: exact;
+            print-color-adjust: exact;
+        }
+
+        /* Página A4 */
+        .page {
+            width: 210mm;
+            height: 297mm;
+            page-break-after: always;
+            position: relative;
+            background-color: #F8FAFC;
+            overflow: hidden;
+            padding: 25mm 20mm 20mm 20mm;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .page:last-child {
+            page-break-after: avoid;
+        }
+
+        /* Gradientes Decorativos basados en el Logo Oficial (Azul y Plata) */
+        .glow-radial {
+            position: absolute;
+            top: -150px;
+            right: -150px;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, rgba(30, 58, 138, 0.02) 50%, rgba(0,0,0,0) 70%);
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        .glow-radial-bottom {
+            position: absolute;
+            bottom: -200px;
+            left: -200px;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(30, 58, 138, 0.08) 0%, rgba(59, 130, 246, 0.02) 50%, rgba(0,0,0,0) 70%);
+            z-index: 1;
+            pointer-events: none;
+        }
+
+        /* Barras de gradiente enmarcando en azul marino y azul eléctrico */
+        .bar-top {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 10px;
+            background: linear-gradient(to right, #0F172A, #1E3A8A, #3B82F6, #60A5FA);
+            z-index: 10;
+        }
+
+        .bar-bottom {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 10px;
+            background: linear-gradient(to right, #60A5FA, #3B82F6, #1E3A8A, #0F172A);
+            z-index: 10;
+        }
+
+        /* Encabezado */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid #E2E8F0;
+            padding-bottom: 12px;
+            margin-bottom: 25px;
+            z-index: 5;
+        }
+
+        /* Pin del logotipo oficial en cabecera */
+        .logo-header-container {
+            background-color: #FFFFFF;
+            padding: 6px 14px;
+            border-radius: 8px;
+            display: inline-flex;
+            align-items: center;
+            box-shadow: 0 2px 8px rgba(30, 58, 138, 0.08);
+            border: 1px solid #E2E8F0;
+        }
+
+        .logo-header-img {
+            height: 18px;
+            width: auto;
+            display: block;
+        }
+
+        .header .tag {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            font-size: 9pt;
+            background-color: #EFF6FF;
+            color: #1E40AF;
+            padding: 4px 12px;
+            border-radius: 20px;
+            border: 1px solid #BFDBFE;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* PORTADA DE LOGO COMPLETA (PÁGINA 1) */
+        .page-cover {
+            background: linear-gradient(135deg, #FFFFFF 0%, #F8FAFC 50%, #E2E8F0 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20mm;
+            text-align: center;
+        }
+
+        .cover-content {
+            z-index: 5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .logo-cover-img-direct {
+            width: 90%;
+            max-height: 220px;
+            object-fit: contain;
+            display: block;
+            margin-bottom: 45px;
+            z-index: 5;
+        }
+
+        .cover-title {
+            font-family: "Montserrat", sans-serif;
+            font-size: 24pt;
+            font-weight: 900;
+            color: #0F172A;
+            margin-bottom: 12px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .cover-subtitle {
+            font-family: "Open Sans", sans-serif;
+            font-size: 13pt;
+            color: #1E40AF;
+            margin-bottom: 45px;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .cover-badge {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 800;
+            font-size: 10pt;
+            color: #FFFFFF;
+            background: linear-gradient(135deg, #0F172A 0%, #1A2E5A 100%);
+            padding: 8px 28px;
+            border-radius: 30px;
+            box-shadow: 0 6px 20px rgba(30, 58, 138, 0.15);
+            text-transform: uppercase;
+            letter-spacing: 2.5px;
+        }
+
+        /* PÁGINAS DE CONTENIDO */
+        .page-title {
+            font-size: 24pt;
+            font-weight: 800;
+            color: #0F172A;
+            margin-bottom: 5px;
+            letter-spacing: -0.5px;
+        }
+
+        .page-title span {
+            color: #2563EB;
+        }
+
+        .page-desc {
+            font-size: 11pt;
+            color: #64748B;
+            margin-bottom: 25px;
+        }
+
+        /* Contenedores de Tarjetas de Paquetes */
+        .packages-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            flex: 1;
+        }
+
+        .package-card {
+            background: #FFFFFF;
+            border: 1px solid #E2E8F0;
+            border-radius: 16px;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 20px;
+            position: relative;
+            box-shadow: 0 4px 15px rgba(30, 58, 138, 0.04);
+            align-items: center;
+        }
+
+        .package-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 5px;
+            height: 100%;
+            background: #3B82F6;
+            border-radius: 16px 0 0 16px;
+        }
+
+        .package-card.blue-navy::before {
+            background: #1E3A8A;
+        }
+
+        .package-card.silver::before {
+            background: #94A3B8;
+        }
+
+        .package-info h3 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 13pt;
+            font-weight: 800;
+            color: #0F172A;
+            margin-bottom: 6px;
+        }
+
+        .package-info p {
+            font-size: 9.5pt;
+            color: #475569;
+            margin: 0;
+            line-height: 1.45;
+        }
+
+        .package-price-box {
+            text-align: right;
+            border-left: 1px solid #E2E8F0;
+            padding-left: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .package-price-box .price-label {
+            font-size: 8pt;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #64748B;
+            margin-bottom: 4px;
+            font-weight: 600;
+        }
+
+        .package-price-box .price-amount {
+            font-family: "Montserrat", sans-serif;
+            font-size: 17pt;
+            font-weight: 900;
+            color: #0F172A;
+            line-height: 1;
+            margin-bottom: 4px;
+        }
+
+        .package-price-box .commission-tag {
+            font-family: "Montserrat", sans-serif;
+            font-size: 9.5pt;
+            font-weight: 700;
+            color: #2563EB;
+            margin-top: 4px;
+            background-color: #EFF6FF;
+            padding: 2px 8px;
+            border-radius: 4px;
+            display: inline-block;
+            align-self: flex-end;
+            border: 1px solid #DBEAFE;
+        }
+
+        .package-card.blue-navy .package-price-box .commission-tag {
+            color: #1E40AF;
+            background-color: #EFF6FF;
+            border-color: #DBEAFE;
+        }
+
+        .package-card.silver .package-price-box .commission-tag {
+            color: #475569;
+            background-color: #F1F5F9;
+            border-color: #E2E8F0;
+        }
+
+        /* PÁGINA 3: PROCESO, BONOS Y CONTACTO */
+        .process-title {
+            font-family: "Montserrat", sans-serif;
+            font-size: 14pt;
+            font-weight: 800;
+            color: #0F172A;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #EFF6FF;
+            padding-bottom: 4px;
+        }
+
+        .process-flow {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .process-step {
+            background: #FFFFFF;
+            border: 1px solid #E2E8F0;
+            border-radius: 12px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(30, 58, 138, 0.02);
+        }
+
+        .process-step .step-num {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 900;
+            font-size: 18pt;
+            color: #2563EB;
+            margin-bottom: 4px;
+        }
+
+        .process-step .step-title {
+            font-family: "Montserrat", sans-serif;
+            font-size: 11pt;
+            font-weight: 700;
+            color: #0F172A;
+            margin-bottom: 6px;
+        }
+
+        .process-step .step-text {
+            font-size: 8.5pt;
+            color: #64748B;
+            line-height: 1.4;
+        }
+
+        /* Sección de Metas y Bonos Oficiales de la Política */
+        .tasks-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .task-bonus-card {
+            background: #FFFFFF;
+            border: 1px solid #E2E8F0;
+            border-left: 4px solid #1E3A8A;
+            border-radius: 0 12px 12px 0;
+            padding: 14px 16px;
+            box-shadow: 0 4px 10px rgba(30, 58, 138, 0.02);
+        }
+
+        .task-bonus-card.blue-light {
+            border-left-color: #3B82F6;
+        }
+
+        .task-bonus-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .task-bonus-title {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            font-size: 10pt;
+            color: #0F172A;
+        }
+
+        .task-bonus-amount {
+            font-family: "Montserrat", sans-serif;
+            font-weight: 800;
+            font-size: 10.5pt;
+            color: #2563EB;
+            background: #EFF6FF;
+            padding: 2px 8px;
+            border-radius: 4px;
+            border: 1px solid #DBEAFE;
+        }
+
+        .task-bonus-desc {
+            font-size: 8.5pt;
+            color: #475569;
+            line-height: 1.4;
+        }
+
+        /* Contenedor de Contacto */
+        .cta-container {
+            background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 100%);
+            border-radius: 20px;
+            padding: 25px 30px;
+            display: grid;
+            grid-template-columns: 1.2fr 0.8fr;
+            gap: 25px;
+            box-shadow: 0 15px 30px rgba(30, 58, 138, 0.15);
+            align-items: center;
+            color: #FFFFFF;
+        }
+
+        .cta-info h3 {
+            font-family: "Montserrat", sans-serif;
+            font-size: 15pt;
+            font-weight: 800;
+            color: #FFFFFF;
+            margin-bottom: 8px;
+        }
+
+        .cta-info p {
+            font-size: 9.5pt;
+            color: #93C5FD;
+            margin: 0 0 15px 0;
+        }
+
+        .whatsapp-bubble {
+            background: rgba(255, 255, 255, 0.08);
+            border-left: 4px solid #3B82F6;
+            padding: 12px 15px;
+            border-radius: 0 8px 8px 0;
+            font-size: 9.5pt;
+            color: #E2E8F0;
+            font-style: italic;
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            border-right: 1px solid rgba(255, 255, 255, 0.05);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .cta-phones {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .phone-card {
+            background: rgba(15, 23, 42, 0.7);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            padding: 12px 15px;
+            text-align: center;
+        }
+
+        .phone-card .label {
+            font-size: 8pt;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: #60A5FA;
+            margin-bottom: 4px;
+            font-weight: 600;
+        }
+
+        .phone-card .number {
+            font-family: "Montserrat", sans-serif;
+            font-size: 14pt;
+            font-weight: 800;
+            color: #FFFFFF;
+        }
+
+        .phone-card.blue-bright {
+            border-color: rgba(59, 130, 246, 0.4);
+        }
+
+        .phone-card.blue-bright .label {
+            color: #93C5FD;
+            font-weight: 600;
+        }
+
+        .phone-card.blue-bright .number {
+            color: #FFFFFF;
+        }
+
+        .footer-branding {
+            margin-top: auto;
+            text-align: center;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 800;
+            font-size: 10.5pt;
+            color: #94A3B8;
+            letter-spacing: 1px;
+            border-top: 1px solid #E2E8F0;
+            padding-top: 12px;
+        }
+
+        .footer-branding span {
+            color: #2563EB;
+        }
+
+        /* Numeración */
+        .page-num {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+            font-size: 9.5pt;
+            color: #94A3B8;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- PAGINA 1: PORTADA OFICIAL (IMAGEN DEL LOGO COMPLETA Y AJUSTADA) -->
+    <div class="page page-cover">
+        <div class="bar-top"></div>
+        <div class="glow-radial"></div>
+        
+        <div class="cover-content">
+            <img src="logo_cte_digitals.jpg" alt="Logo CTE" class="logo-cover-img-direct">
+            <h1 class="cover-title">MANUAL OPERATIVO Y COMERCIAL</h1>
+            <p class="cover-subtitle">Fuerza de Ventas Independiente</p>
+            <div class="cover-badge">CREAMOS TU EMPRESA DIGITAL</div>
+        </div>
+        
+        <div class="page-num" style="color: #94A3B8;">1</div>
+        <div class="bar-bottom"></div>
+    </div>
+
+    <!-- PÁGINA 2: LOS 3 PAQUETES OFICIALES, PRECIOS Y COMISIONES -->
+    <div class="page">
+        <div class="bar-top"></div>
+        <div class="glow-radial"></div>
+        
+        <div class="header">
+            <!-- Pin de logotipo oficial en cabecera -->
+            <div class="logo-header-container">
+                <img src="logo_cte_digitals.jpg" alt="CTE Digitals" class="logo-header-img">
+            </div>
+            <div class="tag">Portafolio Oficial</div>
+        </div>
+
+        <div class="content">
+            <h2 class="page-title">Los 3 Niveles de <span>Solución Digital</span></h2>
+            <p class="page-desc">Precios oficiales de venta al público y comisiones directas por cierres (según tabulador de GitHub).</p>
+
+            <div class="packages-container">
+                <!-- Paquete 1 -->
+                <div class="package-card">
+                    <div class="package-info">
+                        <h3>⚡ Paquete 1: Validación y Venta Rápida</h3>
+                        <p>Landing page express de una sección, ultra optimizada para conversión directa y campañas de pauta publicitaria. Incluye copy persuasivo y formulario de contacto rápido.</p>
+                    </div>
+                    <div class="package-price-box">
+                        <div class="price-label">Precio Oficial</div>
+                        <div class="price-amount">$3,500.00</div>
+                        <div class="commission-tag">Comisión: $1,089.00</div>
+                    </div>
+                </div>
+
+                <!-- Paquete 2 -->
+                <div class="package-card silver">
+                    <div class="package-info">
+                        <h3>🏢 Paquete 2: Autoridad Comercial</h3>
+                        <p>Sitio web corporativo multipágina estándar (Inicio, Nosotros, Servicios, Contacto). Diseñado para establecer el estatus digital, credibilidad y seriedad de marcas locales.</p>
+                    </div>
+                    <div class="package-price-box">
+                        <div class="price-label">Precio Oficial</div>
+                        <div class="price-amount">$5,000.00</div>
+                        <div class="commission-tag">Comisión: $1,899.00</div>
+                    </div>
+                </div>
+
+                <!-- Paquete 3 -->
+                <div class="package-card blue-navy">
+                    <div class="package-info">
+                        <h3>👑 Paquete 3: Dominio con BlueJax</h3>
+                        <p>Ecosistema digital premium de alta gama. Combina diseño estético superior con la potencia de automatización de la infraestructura **BlueJax** para nutrir leads de alto ticket.</p>
+                    </div>
+                    <div class="package-price-box">
+                        <div class="price-label">Precio Oficial</div>
+                        <div class="price-amount">Desde $13,900.00</div>
+                        <div class="commission-tag">Comisión: $2,449.00*</div>
+                    </div>
+                </div>
+            </div>
+            
+            <p style="font-size: 7.5pt; color: #64748B; margin-top: 15px; line-height: 1.3;">
+                * **Nota sobre Paquete 3**: Del costo base de $13,900.00 MXN, se incluye el valor de configuración de BlueJax de $8,000.00 MXN. De acuerdo con la política oficial, la comisión neta directa para el asesor comercial por la venta de este paquete es de **$2,449.00 MXN** netos.
+            </p>
+        </div>
+
+        <div class="page-num">2</div>
+        <div class="bar-bottom"></div>
+    </div>
+
+    <!-- PÁGINA 3: PROCESO, BONOS OFICIALES Y CONTACTO -->
+    <div class="page">
+        <div class="bar-top"></div>
+        <div class="glow-radial-bottom"></div>
+        
+        <div class="header">
+            <!-- Pin de logotipo oficial en cabecera -->
+            <div class="logo-header-container">
+                <img src="logo_cte_digitals.jpg" alt="CTE Digitals" class="logo-header-img">
+            </div>
+            <div class="tag">Incentivos y Proceso</div>
+        </div>
+
+        <div class="content">
+            <!-- Sección de Metas y Bonos Oficiales de la Política -->
+            <div class="process-title">🏅 Incentivos y Bonos por Desempeño</div>
+            <p class="page-desc" style="margin-bottom: 25px;">Premiamos tu constancia y volumen comercial de cierres mensuales. Además de tus comisiones directas base, contamos con un atractivo esquema de bonos e incentivos adicionales en efectivo de forma periódica por lograr un desempeño comercial sobresaliente. *(Las metas específicas de volumen y los montos definitivos serán confirmados y comunicados posteriormente por la Dirección General).*</p>
+
+            <!-- Proceso Comercial -->
+            <div class="process-title" style="margin-top: 5px;">🔄 Proceso Comercial en 3 Pasos</div>
+            <div class="process-flow">
+                <!-- Paso 1 -->
+                <div class="process-step">
+                    <div class="step-num">01</div>
+                    <div class="step-title">Prospectas</div>
+                    <div class="step-text">Identificas negocios locales sin presencia en internet o con sitios obsoletos.</div>
+                </div>
+                <!-- Paso 2 -->
+                <div class="process-step">
+                    <div class="step-num">02</div>
+                    <div class="step-title">Diagnosticas</div>
+                    <div class="step-text">Envías nuestro breve cuestionario de onboarding para perfilar las necesidades del cliente.</div>
+                </div>
+                <!-- Paso 3 -->
+                <div class="process-step">
+                    <div class="step-num">03</div>
+                    <div class="step-title">Cobras</div>
+                    <div class="step-text">El cliente paga, el proyecto entra a producción y tú cobras tu comisión directa y bonos.</div>
+                </div>
+            </div>
+
+            <div class="cta-container">
+                <div class="cta-info">
+                    <h3>¡Postúlate hoy mismo!</h3>
+                    <p>Envía un WhatsApp de solicitud para agendar una llamada rápida.</p>
+                    <div class="whatsapp-bubble">
+                        "Hola Adolfo, vi el folleto comercial de CTE DIGITALS y me interesa integrarme al equipo comercial independiente. ¿Podemos agendar llamada?"
+                    </div>
+                </div>
+
+                <div class="cta-phones">
+                    <!-- Teléfono 1 -->
+                    <div class="phone-card">
+                        <div class="label">Línea Directa</div>
+                        <div class="number">639 135 6845</div>
+                    </div>
+                    <!-- Teléfono 2 -->
+                    <div class="phone-card blue-bright">
+                        <div class="label">Onboarding y Entrevistas</div>
+                        <div class="number">639 274 5457</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-branding">
+                CREAMOS TU EMPRESA <span>DIGITAL</span> &bull; GRAVITY <span>STUDIO</span>
+            </div>
+        </div>
+
+        <div class="page-num">3</div>
+        <div class="bar-bottom"></div>
+    </div>
+
+</body>
+</html>
