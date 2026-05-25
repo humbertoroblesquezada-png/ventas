@@ -16,9 +16,13 @@ Las comisiones y precios autorizados para los cuatro niveles de solución están
 | :--- | :---: | :---: | :---: | :--- |
 | **Paquete 1: Validación y Venta Rápida** | **$3,500.00** | **50%** | **$1,750.00 MXN** | 100% por adelantado |
 | **Paquete 2: Autoridad Comercial** | **$5,000.00** | **50%** | **$2,500.00 MXN** | 100% por adelantado |
-| **Paquete 3: Dominio con BlueJax** | **Desde $13,900.00** | **50%** | **$6,950.00 MXN** (base) | 60% anticipado / 40% entrega |
-| **Paquete 4: Ecosistema Automatizado** | **Bajo Cotización** | **50%** | Variable (50% del total) | Hitos de desarrollo (30/40/30) |
+| **Paquete 3: Dominio con BlueJax** | **Desde $13,900.00** | **50% (de la web)** | **$2,950.00 MXN** (base)* | 60% anticipado / 40% entrega |
+| **Paquete 4: Ecosistema Automatizado** | **Bajo Cotización** | **50% (de la web)** | Variable (50% de la web) | Hitos de desarrollo (30/40/30) |
 | **Auditoría Paquete 4 (Obligatoria)** | **$5,000.00** | **50%** | **$2,500.00 MXN** | 100% por adelantado |
+
+---
+
+> 📌 ***Nota Importante sobre Paquete 3:** Del costo base de **$13,900.00 MXN**, un total de **$8,000.00 MXN** corresponde a la integración de infraestructura de **BlueJax** (costo técnico no comisionable). La comisión del 50% se calcula exclusivamente sobre la porción de diseño y desarrollo web restante (**$5,900.00 MXN**), otorgando una comisión neta de **$2,950.00 MXN** al asesor comercial.
 
 ---
 
