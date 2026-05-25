@@ -8,28 +8,24 @@ Esta es la política comercial definitiva que rige el esquema de compensaciones,
 
 ---
 
-## 📊 1. Tabulador de Comisiones Oficial
+## 📊 1. Tabulador de Comisiones Oficial (50% Flat)
 
-Las comisiones y precios autorizados para los cuatro niveles de solución estándar de la Fábrica de Sitios y la infraestructura **BlueJax** se definen de la siguiente manera:
+Las comisiones y precios autorizados para los cuatro niveles de solución estándar de la Fábrica de Sitios y la infraestructura **BlueJax** se definen de la siguiente manera, otorgando un **50% de comisión automático** a los asesores comerciales sobre el valor del proyecto:
 
 | Nivel de Solución | Costo de Venta (MXN) | % Comisión Asesor | Comisión Neta (MXN) | Esquema de Cobro al Cliente |
 | :--- | :---: | :---: | :---: | :--- |
-| **Paquete 1: Validación y Venta Rápida** | **$3,500.00** | **15%** | **$525.00 MXN** | 100% por adelantado |
-| **Paquete 2: Autoridad Comercial** | **$5,000.00** | **15%** | **$750.00 MXN** | 100% por adelantado |
-| **Paquete 3: Dominio con BlueJax** | **Desde $13,900.00** | **20%** | **$2,780.00 MXN** (base) | 60% anticipado / 40% entrega |
-| **Paquete 4: Ecosistema Automatizado** | **Bajo Cotización** | **20%** | Variable según proyecto | Hitos de desarrollo (30/40/30) |
-| **Auditoría Paquete 4 (Obligatoria)** | **$5,000.00** | **15%** | **$750.00 MXN** | 100% por adelantado |
+| **Paquete 1: Validación y Venta Rápida** | **$3,500.00** | **50%** | **$1,750.00 MXN** | 100% por adelantado |
+| **Paquete 2: Autoridad Comercial** | **$5,000.00** | **50%** | **$2,500.00 MXN** | 100% por adelantado |
+| **Paquete 3: Dominio con BlueJax** | **Desde $13,900.00** | **50%** | **$6,950.00 MXN** (base) | 60% anticipado / 40% entrega |
+| **Paquete 4: Ecosistema Automatizado** | **Bajo Cotización** | **50%** | Variable (50% del total) | Hitos de desarrollo (30/40/30) |
+| **Auditoría Paquete 4 (Obligatoria)** | **$5,000.00** | **50%** | **$2,500.00 MXN** | 100% por adelantado |
 
 ---
 
-## 🏅 2. Política de Comisiones Extraordinarias (Hasta el 50%)
+## 🏅 2. Política de Transparencia Comercial
 
-Existe la posibilidad de otorgar **comisiones extraordinarias de hasta el 50%** en proyectos especiales, consultorías de marca de altísimo nivel o integraciones complejas ad-hoc, sin embargo, esta comisión **NO ES AUTOMÁTICA**.
-
-* **Criterios de Otorgamiento Exclusivos:**
-  * Debe ser expresamente evaluada, autorizada y firmada por **Humberto Robles** antes del envío de la propuesta formal por escrito.
-  * Se otorga como un incentivo al desempeño comercial excepcional, atracción de cuentas estratégicas AAA o cumplimiento de proyectos con un margen de utilidad sumamente elevado.
-  * Requiere el estricto cumplimiento del checklist de QA responsivo y minimización de demoras en la entrega de materiales.
+* El otorgamiento del **50% de comisión es automático** para todos los proyectos estándar una vez que se valida la liquidación total del proyecto y se cumple con la entrega de control de calidad.
+* Para proyectos especiales que requieran de integraciones complejas fuera del alcance de la Fábrica de Software (Paquete 4), la cotización se realiza a la medida y el asesor comercial conservará su **50% de comisión sobre el valor de implementación** neto acordado y firmado por Humberto Robles.
 
 ---
 
